@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<document type="BLUMIND" editor_version="3.2.902.24361" document_version="3.0.0.0">
+  <!--Create by Blumind, you can download it free from http://www.blumind.org-->
+  <information>
+    <author>Song</author>
+    <company>
+    </company>
+    <version>3.0</version>
+    <description>
+    </description>
+  </information>
+  <attributes>
+    <item name="editor_show_sidebar">True</item>
+  </attributes>
+  <charts active_chart="0">
+    <chart name="新页面 1" type="MindMap">
+      <remark>
+      </remark>
+      <layout>LOGIC_RIGHT</layout>
+      <style>
+        <back_color>White</back_color>
+        <fore_color>Black</fore_color>
+        <line_color>LightSlateGray</line_color>
+        <border_color>SlateGray</border_color>
+        <node_back_color>LightGray</node_back_color>
+        <node_fore_color>Black</node_fore_color>
+        <select_color>RoyalBlue</select_color>
+        <hover_color>MediumSlateBlue</hover_color>
+        <link_line_color>Green</link_line_color>
+        <widget_margin>1</widget_margin>
+        <picture_thumb_size>100, 100</picture_thumb_size>
+      </style>
+      <nodes>
+        <node id="1" text="CNMexplanation" x="330" y="377" width="128" height="41" text_b="12, 12, 104, 17">
+          <style>
+            <back_color>Silver</back_color>
+            <fore_color>Black</fore_color>
+            <border_color>Black</border_color>
+            <padding>12</padding>
+          </style>
+          <nodes>
+            <node id="2" text="abstract" x="538" y="356" width="56" height="21" text_b="2, 2, 52, 17" />
+            <node id="3" text="introduction and motivation" x="538" y="387" width="175" height="21" text_b="2, 2, 171, 17" />
+            <node id="4" text="background and preliminary" x="538" y="418" width="176" height="21" text_b="2, 2, 172, 17" />
+          </nodes>
+          <lines>
+            <line target="2" begin_side="Right" end_side="Left" begin_rect="330, 377, 128, 41" end_rect="538, 356, 56, 21" />
+            <line target="3" begin_side="Right" end_side="Left" begin_rect="330, 377, 128, 41" end_rect="538, 387, 175, 21" />
+            <line target="4" begin_side="Right" end_side="Left" begin_rect="330, 377, 128, 41" end_rect="538, 418, 176, 21" />
+          </lines>
+        </node>
+      </nodes>
+    </chart>
+  </charts>
+</document>
